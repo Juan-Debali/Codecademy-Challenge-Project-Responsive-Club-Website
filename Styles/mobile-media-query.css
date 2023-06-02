@@ -85,6 +85,10 @@ details summary::marker {
         border-bottom: .2rem dotted #57C5B6;
     }
 
+    .nav-bar{
+        display: none;
+    }
+
     .mobile__nav-bar {
         padding: .5rem 0;
         display: flex;
@@ -147,6 +151,10 @@ details summary::marker {
 
     /*Hero*/
 
+    .hero {
+        display:none;
+    }
+
     .mobile__hero {
         padding: 10rem 0;
         max-height: fit-content;
@@ -205,7 +213,7 @@ details summary::marker {
 
     /*Teaching gallery*/
 
-    .gallery__teaching {
+    .mobile__gallery__teaching {
         display: grid;
         grid-template-columns: repeat(auto-fill, 1fr);
         justify-items: stretch;
@@ -217,72 +225,72 @@ details summary::marker {
 
 
 
-    .gallery__teaching__1 {
+    .mobile__gallery__teaching__1 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__teaching__2 {
+    .mobile__gallery__teaching__2 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__teaching__3 {
+    .mobile__gallery__teaching__3 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__teaching__4 {
+    .mobile__gallery__teaching__4 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__teaching__5 {
+    .mobile__gallery__teaching__5 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__teaching__6 {
+    .mobile__gallery__teaching__6 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__teaching__7 {
+    .mobile__gallery__teaching__7 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__teaching__8 {
+    .mobile__gallery__teaching__8 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__teaching__9 {
+    .mobile__gallery__teaching__9 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    /*Panoramic-tours gallery*/
+    /*Panoramic-tours mobile__gallery*/
 
-    .gallery__panoramic-tours {
+    .mobile__gallery__panoramic-tours {
         display: grid;
         grid-template-columns: repeat(auto-fill, 1fr);
         justify-items: stretch;
@@ -291,72 +299,72 @@ details summary::marker {
         padding: 2rem;
     }
 
-    .gallery__panoramic-tours__1 {
+    .mobile__gallery__panoramic-tours__1 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__panoramic-tours__2 {
+    .mobile__gallery__panoramic-tours__2 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__panoramic-tours__3 {
+    .mobile__gallery__panoramic-tours__3 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__panoramic-tours__4 {
+    .mobile__gallery__panoramic-tours__4 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__panoramic-tours__5 {
+    .mobile__gallery__panoramic-tours__5 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__panoramic-tours__6 {
+    .mobile__gallery__panoramic-tours__6 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__panoramic-tours__7 {
+    .mobile__gallery__panoramic-tours__7 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__panoramic-tours__8 {
+    .mobile__gallery__panoramic-tours__8 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__panoramic-tours__9 {
+    .mobile__gallery__panoramic-tours__9 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    /*Championship gallery*/
+    /*Championship mobile__gallery*/
 
-    .gallery__championships {
+    .mobile__gallery__championships {
         display: grid;
         grid-template-columns: repeat(auto-fill, 1fr);
         justify-items: stretch;
@@ -365,63 +373,63 @@ details summary::marker {
         padding: 2rem;
     }
 
-    .gallery__championships__1 {
+    .mobile__gallery__championships__1 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__championships__2 {
+    .mobile__gallery__championships__2 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__championships__3 {
+    .mobile__gallery__championships__3 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__championships__4 {
+    .mobile__gallery__championships__4 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__championships__5 {
+    .mobile__gallery__championships__5 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__championships__6 {
+    .mobile__gallery__championships__6 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__championships__7 {
+    .mobile__gallery__championships__7 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__championships__8 {
+    .mobile__gallery__championships__8 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-    .gallery__championships__9 {
+    .mobile__gallery__championships__9 {
         width: 100%;
         height: auto;
         border-radius: 1rem;
