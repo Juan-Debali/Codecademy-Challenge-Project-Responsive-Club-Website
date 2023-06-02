@@ -82,7 +82,7 @@ details summary::marker {
         position: fixed;
         max-height: fit-content;
         background: var(--color-2);
-        border-bottom: .2rem dotted #57C5B6;
+        border-bottom: .2rem dotted var(--color-3);
     }
 
     .mobile__nav-bar {
@@ -156,7 +156,7 @@ details summary::marker {
         background-size: contain;
         background-repeat: no-repeat;
         text-align: center;
-        border-bottom: .2rem dotted #57C5B6;
+        border-bottom: .2rem dotted var(--color-3);
     }
 
     .mobile__hero__text {
@@ -170,14 +170,15 @@ details summary::marker {
 
     #about {
         padding:1rem 0;
-        border-bottom: .2rem dotted #57C5B6;
+        border-bottom: .2rem dotted var(--color-3);
     }
 
     /*Schedule*/
 
     #schedule {
         padding:1rem 0;
-        border-bottom: .2rem dotted #57C5B6;
+        border-bottom: .2rem dotted var(--color-3);
+        align-items: center;
     }
 
     .schedule__month{
@@ -202,7 +203,7 @@ details summary::marker {
         flex-direction: column;
         width: 100%;
         gap: 1rem;
-        border-bottom: .2rem dotted #57C5B6;
+        border-bottom: .2rem dotted var(--color-3);
     }
 
     /*Teaching gallery*/
@@ -213,7 +214,7 @@ details summary::marker {
         justify-items: stretch;
         align-items: stretch;
         gap: 1rem;
-        padding: 2rem;
+        padding: 1rem 2rem;
         justify-content: center;
     }
 
@@ -290,7 +291,7 @@ details summary::marker {
         justify-items: stretch;
         align-items: stretch;
         gap: 1rem;
-        padding: 2rem;
+        padding: 1rem 2rem;
     }
 
     .gallery__panoramic-tours__1 {
@@ -364,7 +365,7 @@ details summary::marker {
         justify-items: stretch;
         align-items: stretch;
         gap: 1rem;
-        padding: 2rem;
+        padding: 1rem 2rem;
     }
 
     .gallery__championships__1 {
