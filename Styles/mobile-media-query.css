@@ -101,7 +101,7 @@ details summary::marker {
 
     .mobile__header-logo__item {
         height: 4rem;
-        align-items: center;
+    
     }
 
 
@@ -148,10 +148,12 @@ details summary::marker {
     /*Hero*/
 
     .mobile__hero {
-        padding: 10rem 0;
-        max-height: fit-content;
+        padding: 9.5rem 0;
+        height: 5rem;
         background-image: url("../Images/johannes-plenio-DKix6Un55mw-unsplash.jpg");
-        background-size: cover;
+        background-attachment: fixed;
+        background-position: 0 28%;
+        background-size: contain;
         background-repeat: no-repeat;
         text-align: center;
         border-bottom: .2rem dotted #57C5B6;
