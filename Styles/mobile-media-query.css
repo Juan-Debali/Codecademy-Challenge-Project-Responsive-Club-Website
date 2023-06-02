@@ -30,7 +30,7 @@
     p {
         text-align: justify;
         padding: .4rem 2rem;
-        font-size: 0.9rem;
+        font-size: 1rem;
         line-height: 1.5;
     }
 
@@ -44,7 +44,7 @@
 
     li {
         font-size: .7rem;
-        padding: 0.5rem 1rem;
+        padding: 0.3rem 0.7rem;
         background-color: var(--color-3);
         border-radius: 0.3rem;
         box-shadow: .3rem .3rem .8rem var(--color-1);
@@ -94,9 +94,8 @@ details summary::marker {
     }
 
     .mobile__header-logo {
-        width: 30%;
-        justify-content: center;
-
+        width: 35%;
+    
     }
 
     .mobile__header-logo__item {
@@ -148,11 +147,11 @@ details summary::marker {
     /*Hero*/
 
     .mobile__hero {
-        padding: 9.5rem 0;
-        height: 5rem;
+        padding: 9.5rem 0 0 0;
+        height: 10rem;
         background-image: url("../Images/johannes-plenio-DKix6Un55mw-unsplash.jpg");
         background-attachment: fixed;
-        background-position: 0 28%;
+        background-position: 0 20%;
         background-size: contain;
         background-repeat: no-repeat;
         text-align: center;
@@ -160,7 +159,7 @@ details summary::marker {
     }
 
     .mobile__hero__text {
-        background: rgba(0, 0, 0, .4);
+        background: rgba(0, 0, 0, 0.4);
     }
 
 
