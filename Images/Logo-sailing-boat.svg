@@ -28,7 +28,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.2973261"
-     inkscape:cx="1362.1408"
+     inkscape:cx="1271.3314"
      inkscape:cy="410.32388"
      inkscape:window-width="1920"
      inkscape:window-height="991"
@@ -38,6 +38,12 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs2">
+    <rect
+       x="1829.6409"
+       y="807.19452"
+       width="507.85989"
+       height="295.97133"
+       id="rect405" />
     <rect
        x="1167.0687"
        y="114.35256"
@@ -103,16 +109,27 @@
        transform="matrix(0.43135631,0,0,0.43135631,-729.38178,0.62196433)"
        id="text684"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:1.5;font-family:'High Tower Text';-inkscape-font-specification:'High Tower Text, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect686);shape-padding:47.0863;opacity:1;fill:#ffffff;stroke:none;stroke-width:1.88976;paint-order:fill markers stroke"><tspan
-         x="2443.6162"
-         y="256.50195"
-         id="tspan421">DEBALI'S
-</tspan><tspan
-         x="2300.5303"
-         y="400.50195"
-         id="tspan423">SAILING BOAT
-</tspan><tspan
-         x="2529.96"
-         y="544.50195"
-         id="tspan425">CLUB</tspan></text>
+         x="2465.9813"
+         y="258.68801"
+         id="tspan430"><tspan
+           style="font-weight:bold;font-family:'Cormorant Garamond';-inkscape-font-specification:'Cormorant Garamond Bold'"
+           id="tspan428">DEBALI'S
+</tspan></tspan><tspan
+         x="2337.4371"
+         y="404.87404"
+         id="tspan434"><tspan
+           style="font-weight:bold;font-family:'Cormorant Garamond';-inkscape-font-specification:'Cormorant Garamond Bold'"
+           id="tspan432">SAILING BOAT
+</tspan></tspan><tspan
+         x="2542.5893"
+         y="551.06008"
+         id="tspan438"><tspan
+           style="font-weight:bold;font-family:'Cormorant Garamond';-inkscape-font-specification:'Cormorant Garamond Bold'"
+           id="tspan436">CLUB</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text403"
+       style="fill:#ffffff;-inkscape-font-specification:'High Tower Text, Normal';font-family:'High Tower Text';font-size:96px;stroke-width:1.88976378;paint-order:fill markers stroke;line-height:333.01%;text-align:center;white-space:pre;shape-inside:url(#rect405)" />
   </g>
 </svg>

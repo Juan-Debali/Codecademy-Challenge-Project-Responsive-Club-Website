@@ -1,7 +1,15 @@
-@media only screen and (max-device-width: 480px) {
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,300&display=swap');
+:root {
+    --color-1:#1A5F7A;
+    --color-2:teal;
+    --color-3:#57C5B6;
+    --color-4:cyan;
+    --color-5:white;
+    --color-6:#003E36;
+}
 
-
-
+@media only screen and (min-device-width: 481px) {
+    
     /*Universals selectors*/
 
     html {
@@ -13,24 +21,27 @@
     }
 
     h1 {
+        font-size: 2rem;
         text-align: center;
-        padding: .4rem 0;
+        padding: 1rem 0;
     }
 
     h2 {
+        font-size: 1.75rem;
         text-align: center;
-        padding: .4rem 0;
+        padding: 1rem 0;
     }
 
     h3 {
+        font-size: 1.5rem;
         text-align: center;
-        padding: .4rem 0;
+        padding: 1rem 0;
     }
 
     p {
         text-align: justify;
-        padding: .4rem 2rem;
-        font-size: 1rem;
+        padding: 1rem 5rem;
+        font-size: 1.5rem;
         line-height: 1.5;
     }
 
@@ -43,16 +54,16 @@
     }
 
     li {
-        font-size: .7rem;
-        padding: 0.3rem 0.7rem;
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
         background-color: var(--color-3);
-        border-radius: 0.3rem;
+        border-radius: 1rem;
         box-shadow: .3rem .3rem .8rem var(--color-1);
     }
 
     details {
         cursor: pointer;
-
+        font-size: 1.5rem;
     }
 
     details summary>* {
@@ -60,7 +71,7 @@
     }
 
     summary {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: center;
         background: var(--color-2);
         padding: 0.5 2rem;
@@ -69,12 +80,6 @@
         box-shadow: .3rem .3rem .8rem var(--color-6);
     }
 
-
-    details summary::marker {
-        display: none;
-    }
-
-
     /*Header */
 
     header {
@@ -82,22 +87,22 @@
         position: fixed;
         max-height: fit-content;
         background: var(--color-2);
-        border-bottom: .2rem dotted var(--color-3);
+        border-bottom: .2rem dashed var(--color-3);
     }
 
     .nav-bar {
-        padding: .5rem 0;
+        padding: 1rem 1rem;
         display: flex;
         flex-direction: row;
         width: 100%;
     }
 
     .header-logo {
-        width: 35%;
+        width: 50%;
     }
 
     .header-logo__item {
-        height: 4rem;
+        height: 5rem;
     }
 
 
@@ -106,7 +111,6 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: .2rem;
         justify-content: space-around;
         flex-wrap: wrap;
         width: 100%;
@@ -115,7 +119,6 @@
 
 
     .nav-bar__li__1 {
-
         animation: go-back 1.25s infinite alternate;
     }
 
@@ -144,25 +147,25 @@
     /*Hero*/
 
     .hero {
-        padding: 9.5rem 0 0 0;
-        height: 10rem;
+        padding: 15rem 0 0 0;
+        height: 27rem;
         background-image: url("../Images/johannes-plenio-DKix6Un55mw-unsplash.jpg");
         background-attachment: fixed;
-        background-position: 0 20%;
-        background-size: contain;
+        background-position: 0 60%;
+        background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
         border-bottom: .2rem dotted var(--color-3);
     }
 
     .hero__text {
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.3);
     }
 
     /* About*/
 
     #about {
-        padding: 1rem 0;
+        padding: 1rem 5rem;
         border-bottom: .2rem dotted var(--color-3);
     }
 
@@ -203,7 +206,7 @@
 
     .gallery__teaching {
         display: grid;
-        grid-template-columns: repeat(auto-fill, 1fr);
+        grid-template-columns: repeat(auto-fill, 47%);
         justify-items: stretch;
         align-items: stretch;
         gap: 1rem;
@@ -280,7 +283,7 @@
 
     .gallery__panoramic-tours {
         display: grid;
-        grid-template-columns: repeat(auto-fill, 1fr);
+        grid-template-columns: repeat(auto-fill, 47%);
         justify-items: stretch;
         align-items: stretch;
         gap: 1rem;
@@ -354,7 +357,7 @@
 
     .gallery__championships {
         display: grid;
-        grid-template-columns: repeat(auto-fill, 1fr);
+        grid-template-columns: repeat(auto-fill, 47%);
         justify-items: stretch;
         align-items: stretch;
         gap: 1rem;
@@ -442,55 +445,56 @@
 
     .contact__logo {
         width: 100%;
-        grid-area: 1 / 1 / span 3 / span 4;
+        grid-area: 2 / 1 / span 2 / span 2;
         height: auto;
         border-radius: 0.5rem;
     }
 
     .contact__instagram {
-        width: 100%;
+        width: 2rem;
         height: auto;
         grid-area: 2 / 6 / span 1 / span 1;
         border-radius: 0.5rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
-        padding: 0.25rem;
+        padding: 0.25rem 2rem;
         background: var(--color-2);
     }
 
     .contact__whatsapp {
-        width: 100%;
+        width: 2rem;
         height: auto;
         grid-area: 2 / 7 / span 1 / span 1;
         border-radius: 0.5rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
-        padding: 0.25rem;
+        padding: 0.25rem 2rem;
         background: var(--color-2);
     }
 
     .contact__email {
-        width: 100%;
+        width: 2rem;
         height: auto;
         grid-area: 2 / 8 / span 1 / span 1;
         border-radius: 0.5rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
-        padding: 0.25rem;
+        padding: 0.25rem 2rem;
         background: var(--color-2);
     }
 
     .contact__facebook {
-        width: 100%;
+        width: 2rem;
         height: auto;
         grid-area: 2 / 9 / span 1 / span 1;
         border-radius: 0.5rem;
         box-shadow: .3rem .3rem .8rem var(--color-6);
-        padding: 0.25rem;
+        padding: 0.25rem 2rem;
         background: var(--color-2);
+    }
+    .footer__development {
+        text-align: center;
+        width: 2rem;
+        background-color: black;
+        padding: 0.5rem 0;
     }
 }
 
-.footer__development {
-    text-align: center;
-    width: 100%;
-    background-color: black;
-    padding: 0.5rem 0;
-}
+
